@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#visor {
+  font-size: 24px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: right;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botao.operacao {
+  background-color: #ff9c00;
+  color: #fff;
+}
+
+.botao:hover {
+  background-color: #f0f0f0;
+}
+
+.botao:focus {
+  outline: none;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  text-align: right;
+}
+
+#operador {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+#resultado {
+  font-size: 24px;
+  font-weight: bold;
+}
